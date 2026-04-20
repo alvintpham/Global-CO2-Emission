@@ -15,6 +15,5 @@ Combined all three visualizations into a fully interactive Tableau dashboard wit
 
 Tools & Skills: 
 Tableau, Data Cleaning, Data Profiling, Parameters, Filters, Scatter Plot, Choropleth Map, Line Chart, Dashboard Design, Data Visualization
-[🔗 View Dashboard on Tableau Public](https://public.tableau.com/app/profile/alvintpahm/viz/GlobalCO2EmissionProject_17766669186020/GlobalCO2Emissions)
 
-Want me to add anything else like a dataset description or screenshots section to any of them?Sonnet 4.6
+[🔗 View Dashboard on Tableau Public](https://public.tableau.com/app/profile/alvintpahm/viz/GlobalCO2EmissionProject_17766669186020/GlobalCO2Emissions)
