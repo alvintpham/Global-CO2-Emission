@@ -1,19 +1,48 @@
-# Global CO2 Emission Dashboard
+# Global CO2 Emissions Dashboard
 
-Analyzed 50,000+ global fossil fuel emission records spanning 1750–2021 using Tableau to understand CO2 emission trends and relationships between emissions and population across 200+ countries.
+## Project Overview
+Analyzed 50,599 records of global fossil fuel emission data spanning 
+271 years (1750-2021) in Tableau to uncover CO2 trends, country level 
+contributions, and the relationship between emissions and population growth.
 
-**Objectives**
+## Objectives
+1. Profile and QA the Data — Filter non-country records, convert 
+   data types, and create a dynamic year parameter
+2. Visualize the Data — Build a line chart, world map, and scatter 
+   plot to show emission trends at the country level
+3. Build an Interactive Dashboard — Combine all visualizations 
+   into a polished dashboard with filters and parameters
 
-Objective 1 - Profile & QA the Data
-Connected to the dataset, filtered out non-country level records by excluding null ISO codes, updated CO2 field data types to Number (Whole), and created a dynamic Top N integer parameter with a default value of 10.
+## Skills Demonstrated
+- Data profiling and QA using Tableau data source editor
+- Parameter creation for dynamic and interactive filtering
+- Line chart, world map, and scatter plot creation
+- Linear regression trendline for correlation analysis
+- Dashboard design with filters, parameters, and color formatting
 
-Objective 2 - Visualize the Data
-Built three visualizations including a line chart showing CO2 global share by year for the top 10 countries, a choropleth world map displaying CO2 per capita for 2021, and a scatter plot comparing CO2 emissions vs population with a linear regression trend line.
+## Key Findings
+- Global CO2 emissions rose sharply after 1950 with no signs 
+  of slowing down through 2021
+- A small number of countries account for the majority of 
+  total global emissions
+- Strong positive correlation exists between population size 
+  and CO2 output at the country level
+- Smaller but highly industrialized nations contribute 
+  disproportionately to emissions on a per capita basis
 
-Objective 3 - Build an Interactive Dashboard
-Combined all three visualizations into a fully interactive Tableau dashboard with a country-level filter and dynamic Top N parameter controls, enabling users to explore CO2 trends across countries and time periods.
+## Recommendations
+- Policy efforts should prioritize highest per capita emitting 
+  nations rather than solely focusing on total volume
+- Population growth projections should be factored into future 
+  emissions forecasting models
 
-Tools & Skills: 
-Tableau, Data Cleaning, Data Profiling, Parameters, Filters, Scatter Plot, Choropleth Map, Line Chart, Dashboard Design, Data Visualization
+## Tools & Technologies
+- Tableau Public
 
-[🔗 View Dashboard on Tableau Public](https://public.tableau.com/app/profile/alvintpahm/viz/GlobalCO2EmissionProject_17766669186020/GlobalCO2Emissions)
+## Dashboard
+[Global CO2 Emissions Dashboard](https://public.tableau.com/app/profile/alvintpahm/viz/GlobalCO2EmissionProject_17766669186020/GlobalCO2Emissions)
+
+## Data Source
+Dataset sourced from Maven Analytics. Download and connect the 
+CSV file to Tableau before opening the workbook.
+[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Global+CO2+Emissions/CO2+Emissions.zip)
