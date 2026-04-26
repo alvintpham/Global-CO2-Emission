@@ -47,4 +47,4 @@ population growth.
 ## Data Source
 Dataset sourced from Maven Analytics. Download and connect the 
 CSV file to Tableau before opening the workbook.
-[Maven Analytics](https://maven-datasets.s3.amazonaws.com/Global+CO2+Emissions/CO2+Emissions.zip)
+[Global CO2 Emissions](https://maven-datasets.s3.amazonaws.com/Global+CO2+Emissions/CO2+Emissions.zip)
