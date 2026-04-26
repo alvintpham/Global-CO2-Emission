@@ -2,27 +2,29 @@
 
 ## Project Overview
 Analyzed 50,599 records of global fossil fuel emission data spanning 
-271 years (1750-2021) in Tableau to uncover CO2 trends, country level 
-contributions, and the relationship between emissions and population growth.
+271 years (1750-2021) in Tableau to uncover CO2 trends, country 
+level contributions, and the relationship between emissions and 
+population growth.
 
 ## Objectives
 1. Profile and QA the Data — Filter non-country records, convert 
-   data types, and create a dynamic year parameter
+   data types, and create a dynamic integer year parameter
 2. Visualize the Data — Build a line chart, world map, and scatter 
    plot to show emission trends at the country level
 3. Build an Interactive Dashboard — Combine all visualizations 
    into a polished dashboard with filters and parameters
 
 ## Skills Demonstrated
-- Data profiling and QA using Tableau data source editor
+- Data profiling, QA, and data type conversion in Tableau
 - Parameter creation for dynamic and interactive filtering
-- Line chart, world map, and scatter plot creation
+- Line chart, world map, and scatter plot development
 - Linear regression trendline for correlation analysis
-- Dashboard design with filters, parameters, and color formatting
+- Dashboard design with slicers, filters, and color formatting
+- Divergent color scale application for data visualization
 
 ## Key Findings
 - Global CO2 emissions rose sharply after 1950 with no signs 
-  of slowing down through 2021
+  of slowing through 2021
 - A small number of countries account for the majority of 
   total global emissions
 - Strong positive correlation exists between population size 
